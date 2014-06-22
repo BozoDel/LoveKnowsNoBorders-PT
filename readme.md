@@ -2,4 +2,6 @@ This repository contains material for the [LoveKnowsNoBorders](https://github.co
 
 # Translation status
 
-love.audio	translated by BozoDel in 8 March 2014
+| Section | Status |
+| ------- | ------ |
+| love.audio | translated by BozoDel in 8 March 2014|
