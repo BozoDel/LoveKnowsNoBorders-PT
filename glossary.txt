@@ -1,0 +1,29 @@
+distance attenuation model	modelo de atenuação por distância	sound is attenuated according to the distance between sound source and listener, among other factors
+returns	retorna	"retorna" (verb) and NOT "retornos" (plural noun)
+DistanceModel	ModeloDeDistância	enum name
+Source	Fonte	type name
+source	source	type name
+number	número	Lua type name
+orientation	orientação
+enum	enum	it is more often written as "enum" in Portuguese (as opposed to "enumeração", "enumerador" or "tipo enumerado"). It's used in the masculine form, and the plural is "enums".
+constructor	construtor
+pointer	ponteiro
+raw pointer	ponteiro	A raw pointer is the same as a regular pointer. "Raw" is used to distinguish it from smart pointers, but it's not entirely necessary. Plus, this expression is very rare on the wiki.
+listener	ouvinte
+vector	vetor
+forward vector	vetor dianteiro	It's a 3D vector showing the direction the listener is looking at.
+up vector	vetor superior	It's a 3D vector showing the direction that the top of the listener's head is pointing at.
+File	Arquivo
+Decoder	Decodificador
+SoundData	DadoDeSom	"Data" is used nowadays both as singular and plural. When SoundData is a single object, it's best translated as "DadoDeSom" instead of "DadosDeSom".
+filepath	caminho d(e|o) arquivo	"Caminho" seems more common than "endereço".
+File	Arquivo
+static	static	When used in an example string, or when isolated (shown under SourceType constants), don't translate.
+static	estático	When used in a description or explanation, do translate.
+string	string	s.m. (o uso masculino parece ser um pouco mais comum que o feminino)
+stream	stream	When used in an example string, or when isolated (shown under SourceType constants), don't translate.
+stream	em fluxo	When used in a description or explanation, do translate. "Streaming de áudio" may be preferred among IT people, but searching for "áudio em fluxo" yields twice as many results. Plus, it's more easily understood by Portuguese speakers.
+SourceType	TipoDeFonte
+file	arquivo
+decoder	decodificador
+data	dado	"data" can be both singular and plural.

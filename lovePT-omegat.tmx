@@ -1,0 +1,1337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tmx SYSTEM "tmx11.dtd">
+<tmx version="1.1">
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="3.0.8_5" segtype="sentence" srclang="en-us"/>
+  <body>
+<!-- Default translations -->
+    <tu>
+      <tuv lang="en-us">
+        <seg>* [[&lt;x0/&gt;Source]]</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140426T160307Z" creationid="bozodel" creationdate="20140426T160307Z">
+        <seg>* [[&lt;x0/&gt;Source (Português)|Fonte]]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>* [[&lt;x0/&gt;love.audio]]</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140426T160240Z" creationid="bozodel" creationdate="20140426T160240Z">
+        <seg>* [[&lt;x0/&gt;love.audio (Português)|love.audio]]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>* [[&lt;x0/&gt;love]]</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140426T160225Z" creationid="bozodel" creationdate="20140426T160225Z">
+        <seg>* [[&lt;x0/&gt;love (Português)|love]]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>* [[Source:setPosition]]</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T232451Z" creationid="bozodel" creationdate="20140423T232451Z">
+        <seg>* [[Source:setPosition (Português)|Source:setPosition]]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>* [[Tutorial:Audio]]</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T183626Z" creationid="bozodel" creationdate="20140419T150042Z">
+        <seg>* [[Tutorial:Audio (Português)|Tutorial:Audio]]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>1.0f is max and 0.0f is off.</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T232716Z" creationid="bozodel" creationdate="20140423T232716Z">
+        <seg>1.0f é o máximo e 0.0f é o desligado.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>A File pointing to an audio file.</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T194702Z" creationid="bozodel" creationdate="20140423T194702Z">
+        <seg>Um Arquivo apontando para um arquivo de áudio.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>A new Source that can play the specified audio.</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T194541Z" creationid="bozodel" creationdate="20140423T194541Z">
+        <seg>Uma nova Fonte que pode tocar o áudio especificado.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>Arguments</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140422T212534Z" creationid="bozodel" creationdate="20140422T212534Z">
+        <seg>Argumentos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>Creates a new [[Source]] from a file, [[SoundData]], or [[Decoder]].</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T221619Z" creationid="bozodel" creationdate="20140423T221619Z">
+        <seg>Cria uma nova [[Source (Português)|Fonte]] a partir de um arquivo, [[SoundData (Português)|DadoDeSom]], ou [[Decoder (Português)|Decodificador]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>Creates a new [[Source]] from a filepath, [[File]], [[Decoder]] or [[SoundData]].</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T184802Z" creationid="bozodel" creationdate="20140423T183608Z">
+        <seg>Cria uma nova [[Source (Português)|Fonte]] a partir de um caminho de arquivo, [[File (Português)|Arquivo]], [[Decoder (Português)|Decodificador]] ou [[SoundData (Português)|DadoDeSom]].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>Decoder</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T194903Z" creationid="bozodel" creationdate="20140423T194837Z">
+        <seg>Decodificador</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>DistanceModel</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140422T213736Z" creationid="bozodel" creationdate="20140422T213130Z">
+        <seg>ModeloDeDistância</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>Enums</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140419T145746Z" creationid="bozodel" creationdate="20140419T145746Z">
+        <seg>Enums</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>Examples</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T200140Z" creationid="bozodel" creationdate="20140423T200140Z">
+        <seg>Exemplos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>File</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T194736Z" creationid="bozodel" creationdate="20140423T194736Z">
+        <seg>Arquivo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>Forward vector of the listener orientation.</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T153452Z" creationid="bozodel" creationdate="20140423T153452Z">
+        <seg>Vetor dianteiro da orientação do ouvinte.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>Function</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140422T212443Z" creationid="bozodel" creationdate="20140422T212320Z">
+        <seg>Função</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>Functions</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140419T145622Z" creationid="bozodel" creationdate="20140419T145622Z">
+        <seg>Funções</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>Gets the current number of simultaneously playing sources.</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140422T214440Z" creationid="bozodel" creationdate="20140422T214440Z">
+        <seg>Obtém o número de fontes tocando atualmente.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>It has been renamed from [[love.audio.getNumSources]]</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T183730Z" creationid="bozodel" creationdate="20140423T183500Z">
+        <seg>Foi renomeado, antes era [[love.audio.getNumSources (Português)|love.audio.getNumSources]]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>It has been renamed to [[love.audio.getSourceCount]]</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T183443Z" creationid="bozodel" creationdate="20140423T183443Z">
+        <seg>Foi renomeado para [[love.audio.getSourceCount (Português)|love.audio.getSourceCount]]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>Load Decoder and create a Source</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T200359Z" creationid="bozodel" creationdate="20140423T200359Z">
+        <seg>Carregar Decodificador e criar uma Fonte</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>Load SoundData and create a Source</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T200326Z" creationid="bozodel" creationdate="20140423T200326Z">
+        <seg>Carregar DadoDeSom e criar uma Fonte</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>Load a sound effect and play it</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T200252Z" creationid="bozodel" creationdate="20140423T200252Z">
+        <seg>Carregar e tocar um efeito sonoro</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>Load background music and play it</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T200222Z" creationid="bozodel" creationdate="20140423T200222Z">
+        <seg>Carregar e tocar música de fundo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>None.</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140422T212629Z" creationid="bozodel" creationdate="20140422T212629Z">
+        <seg>Nenhum.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>Nothing.</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T222010Z" creationid="bozodel" creationdate="20140423T222010Z">
+        <seg>Nada.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>Other Languages</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140419T150056Z" creationid="bozodel" creationdate="20140419T150056Z">
+        <seg>Outras Línguas</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>Pauses all audio.</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T215434Z" creationid="bozodel" creationdate="20140423T215434Z">
+        <seg>Pauses all audio.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>Plays the specified Source.</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T222133Z" creationid="bozodel" creationdate="20140423T222133Z">
+        <seg>Toca a Fonte especificada.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>Provides an interface to output sound to the user's speakers.</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T183345Z" creationid="bozodel" creationdate="20140423T183138Z">
+        <seg>Provê uma interface para criar sons com os alto-falantes do usuário.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>Remarks</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T224328Z" creationid="bozodel" creationdate="20140423T224328Z">
+        <seg>Limitações</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>Resumes all audio.</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T222303Z" creationid="bozodel" creationdate="20140423T222303Z">
+        <seg>Despausa todo o áudio.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>Returns</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140422T212643Z" creationid="bozodel" creationdate="20140422T212643Z">
+        <seg>Retorna</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>Returns the distance attenuation model.</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140419T151822Z" creationid="bozodel" creationdate="20140419T151822Z">
+        <seg>Retorna o modelo de atenuação por distância.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>Returns the master volume.</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T154906Z" creationid="bozodel" creationdate="20140423T154906Z">
+        <seg>Retorna o volume mestre.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>Returns the orientation of the listener.</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T151403Z" creationid="bozodel" creationdate="20140423T151403Z">
+        <seg>Retorna a orientação do ouvinte.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>Returns the position of the listener.</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T154239Z" creationid="bozodel" creationdate="20140423T154239Z">
+        <seg>Retorna a posição do ouvinte.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>Returns the velocity of the listener.</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T154713Z" creationid="bozodel" creationdate="20140423T154713Z">
+        <seg>Retorna a velocidade do ouvinte.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>Rewinds all playing audio.</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T222415Z" creationid="bozodel" creationdate="20140423T222415Z">
+        <seg>Rebobina todo o áudio que estiver tocando.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>See Also</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140419T145837Z" creationid="bozodel" creationdate="20140419T145837Z">
+        <seg>Veja Também</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>Sets the distance attenuation model.</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T222554Z" creationid="bozodel" creationdate="20140423T222554Z">
+        <seg>Define o modelo de atenuação por distância.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>Sets the master volume.</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T232640Z" creationid="bozodel" creationdate="20140423T232640Z">
+        <seg>Define o volume mestre.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>Sets the orientation of the listener.</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T224002Z" creationid="bozodel" creationdate="20140423T224002Z">
+        <seg>Configura a orientação do ouvinte.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>Sets the position of the listener, which determines how sounds play.</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T224239Z" creationid="bozodel" creationdate="20140423T224239Z">
+        <seg>Configura a posição do ouvinte, o que determina como os sons irão tocar.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>Sets the position of the listener.</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T232511Z" creationid="bozodel" creationdate="20140423T232511Z">
+        <seg>Define a posição do ouvinte.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>Sets the velocity of the listener.</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T232607Z" creationid="bozodel" creationdate="20140423T232607Z">
+        <seg>Define a velocidade do ouvinte.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>Setting a position only works for mono sources.</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T224401Z" creationid="bozodel" creationdate="20140423T224401Z">
+        <seg>Configurar uma posição só funciona para fontes mono.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>SoundData</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T195016Z" creationid="bozodel" creationdate="20140423T195016Z">
+        <seg>DadoDeSom</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>Source</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T194549Z" creationid="bozodel" creationdate="20140423T194549Z">
+        <seg>Fonte</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>SourceType</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T194444Z" creationid="bozodel" creationdate="20140423T194444Z">
+        <seg>TipoDeFonte</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>Sources created from SoundData are always static.</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T192626Z" creationid="bozodel" creationdate="20140423T183733Z">
+        <seg>Fontes criadas a partir de DadosDeSom são sempre estáticas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>Stops all playing audio.</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T232807Z" creationid="bozodel" creationdate="20140423T232807Z">
+        <seg>Para todo o áudio que estiver tocando.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>Streaming or static source.</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T194834Z" creationid="bozodel" creationdate="20140423T192945Z">
+        <seg>Fonte em fluxo ou estática.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>Synopsis</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140422T212447Z" creationid="bozodel" creationdate="20140422T212447Z">
+        <seg>Sinopse</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>The Decoder to create a Source from.</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T194856Z" creationid="bozodel" creationdate="20140423T194821Z">
+        <seg>O Decodificador a partir do qual se deve criar uma Fonte.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>The SoundData to create a Source from.</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T195011Z" creationid="bozodel" creationdate="20140423T195011Z">
+        <seg>O DadoDeSom a partir do qual se deve criar uma Fonte.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>The Source to play.</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T222156Z" creationid="bozodel" creationdate="20140423T222156Z">
+        <seg>A fonte a ser tocada.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>The X position of the listener.</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T154300Z" creationid="bozodel" creationdate="20140423T154300Z">
+        <seg>A posição em X do ouvinte.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>The X velocity of the listener.</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T154734Z" creationid="bozodel" creationdate="20140423T154734Z">
+        <seg>A velocidade em X do ouvinte.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>The Y position of the listener.</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T154320Z" creationid="bozodel" creationdate="20140423T154320Z">
+        <seg>A posição em Y do ouvinte.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>The Y velocity of the listener.</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T154746Z" creationid="bozodel" creationdate="20140423T154746Z">
+        <seg>A velocidade em Y do ouvinte.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>The Z position of the listener.</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T154342Z" creationid="bozodel" creationdate="20140423T154342Z">
+        <seg>A posição em Z do ouvinte.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>The Z velocity of the listener.</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T154753Z" creationid="bozodel" creationdate="20140423T154753Z">
+        <seg>A velocidade em Z do ouvinte.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>The [[SourceType]] of the returned audio is "static".</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T215528Z" creationid="bozodel" creationdate="20140423T215528Z">
+        <seg>O [[SourceType (Português)|TipoDeFonte]] do áudio retornado é "static".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>The current distance model.</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140422T213046Z" creationid="bozodel" creationdate="20140422T213046Z">
+        <seg>O modelo de distância atual.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>The current master volume</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T154930Z" creationid="bozodel" creationdate="20140423T154921Z">
+        <seg>O volume mestre atual.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>The current number of simultaneously playing sources.</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140422T214533Z" creationid="bozodel" creationdate="20140422T214533Z">
+        <seg>O número de fontes tocando atualmente.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>The filepath to the audio file.</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T192726Z" creationid="bozodel" creationdate="20140423T192726Z">
+        <seg>O caminho do arquivo de áudio.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>The new distance model.</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T223859Z" creationid="bozodel" creationdate="20140423T223859Z">
+        <seg>O novo modelo de distância.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>The source on which to pause the playback</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T222040Z" creationid="bozodel" creationdate="20140423T222040Z">
+        <seg>A fonte que se deseja pausar.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>The source on which to resume the playback.</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T222334Z" creationid="bozodel" creationdate="20140423T222334Z">
+        <seg>A fonte que se deseja despausar.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>The source on which to stop the playback</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T232857Z" creationid="bozodel" creationdate="20140423T232857Z">
+        <seg>A fonte que deve parar de tocar</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>The source to rewind.</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T222514Z" creationid="bozodel" creationdate="20140423T222514Z">
+        <seg>A fonte a ser rebobinada.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>The x position of the listener.</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T224255Z" creationid="bozodel" creationdate="20140423T224255Z">
+        <seg>A posição em x do ouvinte.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>The y position of the listener.</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T224302Z" creationid="bozodel" creationdate="20140423T224302Z">
+        <seg>A posição em y do ouvinte.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>The z position of the listener.</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T224308Z" creationid="bozodel" creationdate="20140423T224308Z">
+        <seg>A posição em z do ouvinte.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>This function is not supported in earlier versions</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140419T151654Z" creationid="bozodel" creationdate="20140419T151654Z">
+        <seg>Esta função não é suportada em versões anteriores</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>Types</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T183154Z" creationid="bozodel" creationdate="20140423T183154Z">
+        <seg>Tipos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>Up vector of the listener orientation.</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T153742Z" creationid="bozodel" creationdate="20140423T153742Z">
+        <seg>Vetor superior da orientação do ouvinte.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>WAV files are always loaded as stereo, OGG works fine.</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T232125Z" creationid="bozodel" creationdate="20140423T232125Z">
+        <seg>Arquivos WAV são sempre carregados como estéreo, OGG funciona bem.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>bgm = love.audio.newSource("bgm.ogg", "stream")
+love.audio.play(bgm)</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T200243Z" creationid="bozodel" creationdate="20140423T200243Z">
+        <seg>mdf = love.audio.newSource("mdf.ogg", "stream")
+love.audio.play(mdf)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>data</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T194951Z" creationid="bozodel" creationdate="20140423T194951Z">
+        <seg>dado</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>data = love.sound.newSoundData("sfx.wav")
+sfx = love.audio.newSource(data)</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T200350Z" creationid="bozodel" creationdate="20140423T200350Z">
+        <seg>dado = love.sound.newSoundData("efeito.wav")
+efeito = love.audio.newSource(dado)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>decoder</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T194804Z" creationid="bozodel" creationdate="20140423T194804Z">
+        <seg>decodificador</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>decoder = love.sound.newDecoder("bgm.ogg")
+bgm = love.audio.newSource(decoder)</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T200424Z" creationid="bozodel" creationdate="20140423T200424Z">
+        <seg>decodificador = love.sound.newDecoder("mdf.ogg")
+mdf = love.audio.newSource(decodificador)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>file</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T194614Z" creationid="bozodel" creationdate="20140423T194614Z">
+        <seg>arquivo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>filename</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T192709Z" creationid="bozodel" creationdate="20140423T192630Z">
+        <seg>nomeDoArquivo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>fx, fy, fz</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T153241Z" creationid="bozodel" creationdate="20140423T153241Z">
+        <seg>dx, dy, dz</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>fx, fy, fz, ux, uy, uz = love.audio.getOrientation( )</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T153231Z" creationid="bozodel" creationdate="20140423T153231Z">
+        <seg>dx, dy, dz, sx, sy, sz = love.audio.getOrientation( )</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>https://www.love2d.org/wiki/love.audio.getDistanceModel_(Português)</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140419T151607Z" creationid="bozodel" creationdate="20140419T151607Z">
+        <seg>https://www.love2d.org/wiki/love.audio.getDistanceModel_(Português)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>https://www.love2d.org/wiki/love.audio.getNumSources_(Português)</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140422T213159Z" creationid="bozodel" creationdate="20140422T213159Z">
+        <seg>https://www.love2d.org/wiki/love.audio.getNumSources_(Português)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>https://www.love2d.org/wiki/love.audio.getOrientation_(Português)</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T000515Z" creationid="bozodel" creationdate="20140423T000515Z">
+        <seg>https://www.love2d.org/wiki/love.audio.getOrientation_(Português)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>https://www.love2d.org/wiki/love.audio.getPosition_(Português)</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T154205Z" creationid="bozodel" creationdate="20140423T154205Z">
+        <seg>https://www.love2d.org/wiki/love.audio.getPosition_(Português)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>https://www.love2d.org/wiki/love.audio.getSourceCount_(Português)</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T154413Z" creationid="bozodel" creationdate="20140423T154413Z">
+        <seg>https://www.love2d.org/wiki/love.audio.getSourceCount_(Português)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>https://www.love2d.org/wiki/love.audio.getVelocity_(Português)</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T154651Z" creationid="bozodel" creationdate="20140423T154651Z">
+        <seg>https://www.love2d.org/wiki/love.audio.getVelocity_(Português)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>https://www.love2d.org/wiki/love.audio.getVolume_(Português)</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T154846Z" creationid="bozodel" creationdate="20140423T154846Z">
+        <seg>https://www.love2d.org/wiki/love.audio.getVolume_(Português)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>https://www.love2d.org/wiki/love.audio.newSource_(Português)</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T154938Z" creationid="bozodel" creationdate="20140423T154938Z">
+        <seg>https://www.love2d.org/wiki/love.audio.newSource_(Português)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>https://www.love2d.org/wiki/love.audio.pause_(Português)</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T215340Z" creationid="bozodel" creationdate="20140423T215340Z">
+        <seg>https://www.love2d.org/wiki/love.audio.pause_(Português)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>https://www.love2d.org/wiki/love.audio.play_(Português)</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T222102Z" creationid="bozodel" creationdate="20140423T222102Z">
+        <seg>https://www.love2d.org/wiki/love.audio.play_(Português)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>https://www.love2d.org/wiki/love.audio.resume_(Português)</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T222234Z" creationid="bozodel" creationdate="20140423T222234Z">
+        <seg>https://www.love2d.org/wiki/love.audio.resume_(Português)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>https://www.love2d.org/wiki/love.audio.rewind_(Português)</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T222353Z" creationid="bozodel" creationdate="20140423T222353Z">
+        <seg>https://www.love2d.org/wiki/love.audio.rewind_(Português)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>https://www.love2d.org/wiki/love.audio.setDistanceModel_(Português)</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T222524Z" creationid="bozodel" creationdate="20140423T222524Z">
+        <seg>https://www.love2d.org/wiki/love.audio.setDistanceModel_(Português)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>https://www.love2d.org/wiki/love.audio.setOrientation_(Português)</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T223914Z" creationid="bozodel" creationdate="20140423T223914Z">
+        <seg>https://www.love2d.org/wiki/love.audio.setOrientation_(Português)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>https://www.love2d.org/wiki/love.audio.setPosition_(Português)</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T224203Z" creationid="bozodel" creationdate="20140423T224203Z">
+        <seg>https://www.love2d.org/wiki/love.audio.setPosition_(Português)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>https://www.love2d.org/wiki/love.audio.setVelocity_(Português)</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T232525Z" creationid="bozodel" creationdate="20140423T232525Z">
+        <seg>https://www.love2d.org/wiki/love.audio.setVelocity_(Português)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>https://www.love2d.org/wiki/love.audio.setVolume_(Português)</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T232621Z" creationid="bozodel" creationdate="20140423T232621Z">
+        <seg>https://www.love2d.org/wiki/love.audio.setVolume_(Português)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>https://www.love2d.org/wiki/love.audio.stop_(Português)</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T232742Z" creationid="bozodel" creationdate="20140423T232742Z">
+        <seg>https://www.love2d.org/wiki/love.audio.stop_(Português)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>https://www.love2d.org/wiki/love.audio_(Português)</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T183050Z" creationid="bozodel" creationdate="20140423T183050Z">
+        <seg>https://www.love2d.org/wiki/love.audio_(Português)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>love.audio</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T183100Z" creationid="bozodel" creationdate="20140423T183100Z">
+        <seg>love.audio</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>love.audio.getDistanceModel</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140422T214214Z" creationid="bozodel" creationdate="20140419T151629Z">
+        <seg>love.audio.getDistanceModel</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>love.audio.getNumSources</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140422T214024Z" creationid="bozodel" creationdate="20140422T214024Z">
+        <seg>love.audio.getNumSources</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>love.audio.getOrientation</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T000535Z" creationid="bozodel" creationdate="20140423T000535Z">
+        <seg>love.audio.getOrientation</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>love.audio.getPosition</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T154226Z" creationid="bozodel" creationdate="20140423T154226Z">
+        <seg>love.audio.getPosition</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>love.audio.getSourceCount</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T154423Z" creationid="bozodel" creationdate="20140423T154423Z">
+        <seg>love.audio.getSourceCount</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>love.audio.getVelocity</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T154703Z" creationid="bozodel" creationdate="20140423T154703Z">
+        <seg>love.audio.getVelocity</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>love.audio.getVolume</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T154855Z" creationid="bozodel" creationdate="20140423T154855Z">
+        <seg>love.audio.getVolume</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>love.audio.newSource</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T154948Z" creationid="bozodel" creationdate="20140423T154948Z">
+        <seg>love.audio.newSource</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>love.audio.pause</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T215355Z" creationid="bozodel" creationdate="20140423T215355Z">
+        <seg>love.audio.pause</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>love.audio.pause( )</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T221943Z" creationid="bozodel" creationdate="20140423T221654Z">
+        <seg>love.audio.pause( )</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>love.audio.pause( source )</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T222022Z" creationid="bozodel" creationdate="20140423T222022Z">
+        <seg>love.audio.pause( fonte )</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>love.audio.play</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T222117Z" creationid="bozodel" creationdate="20140423T222117Z">
+        <seg>love.audio.play</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>love.audio.play( source )</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T222141Z" creationid="bozodel" creationdate="20140423T222141Z">
+        <seg>love.audio.play( fonte )</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>love.audio.resume</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T222245Z" creationid="bozodel" creationdate="20140423T222245Z">
+        <seg>love.audio.resume</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>love.audio.resume( )</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T222308Z" creationid="bozodel" creationdate="20140423T222308Z">
+        <seg>love.audio.resume( )</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>love.audio.resume( source )</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T222318Z" creationid="bozodel" creationdate="20140423T222318Z">
+        <seg>love.audio.resume( fonte )</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>love.audio.rewind</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T222402Z" creationid="bozodel" creationdate="20140423T222402Z">
+        <seg>love.audio.rewind</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>love.audio.rewind( )</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T222420Z" creationid="bozodel" creationdate="20140423T222420Z">
+        <seg>love.audio.rewind( )</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>love.audio.rewind( source )</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T222504Z" creationid="bozodel" creationdate="20140423T222504Z">
+        <seg>love.audio.rewind( fonte )</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>love.audio.setDistanceModel</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T222538Z" creationid="bozodel" creationdate="20140423T222538Z">
+        <seg>love.audio.setDistanceModel</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>love.audio.setDistanceModel( model )</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T223836Z" creationid="bozodel" creationdate="20140423T223836Z">
+        <seg>love.audio.setDistanceModel( modelo )</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>love.audio.setOrientation</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T223923Z" creationid="bozodel" creationdate="20140423T223923Z">
+        <seg>love.audio.setOrientation</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>love.audio.setOrientation( fx, fy, fz, ux, uy, uz )</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T224059Z" creationid="bozodel" creationdate="20140423T224059Z">
+        <seg>love.audio.setOrientation( dx, dy, dz, sx, sy, sz )</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>love.audio.setPosition</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T224217Z" creationid="bozodel" creationdate="20140423T224217Z">
+        <seg>love.audio.setPosition</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>love.audio.setPosition( x, y, z )</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T224241Z" creationid="bozodel" creationdate="20140423T224241Z">
+        <seg>love.audio.setPosition( x, y, z )</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>love.audio.setVelocity</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T232534Z" creationid="bozodel" creationdate="20140423T232534Z">
+        <seg>love.audio.setVelocity</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>love.audio.setVelocity( x, y, z )</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T232610Z" creationid="bozodel" creationdate="20140423T232610Z">
+        <seg>love.audio.setVelocity( x, y, z )</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>love.audio.setVolume</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T232629Z" creationid="bozodel" creationdate="20140423T232629Z">
+        <seg>love.audio.setVolume</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>love.audio.setVolume( volume )</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T232642Z" creationid="bozodel" creationdate="20140423T232642Z">
+        <seg>love.audio.setVolume( volume )</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>love.audio.stop</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T232750Z" creationid="bozodel" creationdate="20140423T232750Z">
+        <seg>love.audio.stop</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>love.audio.stop( )</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T232813Z" creationid="bozodel" creationdate="20140423T232813Z">
+        <seg>love.audio.stop( )</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>love.audio.stop( source )</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T232835Z" creationid="bozodel" creationdate="20140423T232835Z">
+        <seg>love.audio.stop( fonte )</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>model</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140422T212650Z" creationid="bozodel" creationdate="20140422T212650Z">
+        <seg>modelo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>model = love.audio.getDistanceModel( )</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140422T212530Z" creationid="bozodel" creationdate="20140422T212530Z">
+        <seg>modelo = love.audio.getDistanceModel( )</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>numSources</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140422T214513Z" creationid="bozodel" creationdate="20140422T214513Z">
+        <seg>numFontes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>numSources = love.audio.getNumSources( )</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140422T214455Z" creationid="bozodel" creationdate="20140422T214455Z">
+        <seg>numFontes = love.audio.getNumSources( )</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>numSources = love.audio.getSourceCount( )</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T154629Z" creationid="bozodel" creationdate="20140423T154613Z">
+        <seg>numFontes = love.audio.getSourceCount( )</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>number</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140422T214601Z" creationid="bozodel" creationdate="20140422T214601Z">
+        <seg>número</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>sfx = love.audio.newSource("sfx.wav", "static")
+love.audio.play(sfx)</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T200310Z" creationid="bozodel" creationdate="20140423T200310Z">
+        <seg>efeito = love.audio.newSource("efeito.wav", "static")
+love.audio.play(efeito)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>source</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T194517Z" creationid="bozodel" creationdate="20140423T194517Z">
+        <seg>fonte</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>source = love.audio.newSource( data )</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T194913Z" creationid="bozodel" creationdate="20140423T194913Z">
+        <seg>fonte = love.audio.newSource( dado )</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>source = love.audio.newSource( decoder, type )</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T194751Z" creationid="bozodel" creationdate="20140423T194751Z">
+        <seg>fonte = love.audio.newSource( decodificador, tipo )</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>source = love.audio.newSource( file, type )</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T194603Z" creationid="bozodel" creationdate="20140423T194603Z">
+        <seg>fonte = love.audio.newSource( arquivo, tipo )</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>source = love.audio.newSource( filename, type )</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T192703Z" creationid="bozodel" creationdate="20140423T184805Z">
+        <seg>fonte = love.audio.newSource( nomeDoArquivo, tipo )</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>string</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T192915Z" creationid="bozodel" creationdate="20140423T192915Z">
+        <seg>string</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>type ("stream")</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T192924Z" creationid="bozodel" creationdate="20140423T192924Z">
+        <seg>tipo ("stream")</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>ux, uy, uz</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T153516Z" creationid="bozodel" creationdate="20140423T153516Z">
+        <seg>sx, sy, sz</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>volume</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T154915Z" creationid="bozodel" creationdate="20140423T154915Z">
+        <seg>volume</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>volume = love.audio.getVolume( )</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T154909Z" creationid="bozodel" creationdate="20140423T154909Z">
+        <seg>volume = love.audio.getVolume( )</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>x</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T154247Z" creationid="bozodel" creationdate="20140423T154247Z">
+        <seg>x</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>x, y, z = love.audio.getPosition( )</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T154245Z" creationid="bozodel" creationdate="20140423T154245Z">
+        <seg>x, y, z = love.audio.getPosition( )</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>x, y, z = love.audio.getVelocity( )</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T154716Z" creationid="bozodel" creationdate="20140423T154716Z">
+        <seg>x, y, z = love.audio.getVelocity( )</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>y</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T154303Z" creationid="bozodel" creationdate="20140423T154303Z">
+        <seg>y</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-us">
+        <seg>z</seg>
+      </tuv>
+      <tuv lang="pt-br" changeid="bozodel" changedate="20140423T154321Z" creationid="bozodel" creationdate="20140423T154321Z">
+        <seg>z</seg>
+      </tuv>
+    </tu>
+<!-- Alternative translations -->
+  </body>
+</tmx>
