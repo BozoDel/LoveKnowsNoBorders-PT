@@ -41,8 +41,8 @@ rule2.ruleType.i=1
 rule2.expr=(={2,6})\s*(.+?)\s*\1
 rule2.groupSource.i=2
 rule2.groupTarget.i=-1
-rule2.groupName.i=1
-rule2.groupNote.i=-1
+rule2.groupName.i=-1
+rule2.groupNote.i=1
 rule2.preserveWS.b=true
 rule2.useCodeFinder.b=false
 rule2.sample=Selects wikimedia headings, which are marked by 2 to 6 equals signs on each side.$0a$The \s is because we don't want any unnecessary spaces sent to the translation,$0a$though that may not be really necessary. first group (containing equal signs) will$0a$serve as segment ID, to clarify that it's a heading.$0a$$0a$I the examples below, there are some buggy ones that are very unlikely to$0a$occur.$0a$$0a$= not valid =$0a$== second header ==$0a$=== third header ===$0a$==== fourth header ====$0a$===== fifth header =====$0a$======  sixth header ======$0a$======= not valid and buggy =======$0a$== another buggy one ====$0a$some text for showing the bug$0a$== second header not captured because of bug ==
@@ -67,8 +67,8 @@ rule4.ruleType.i=1
 rule4.expr=\{{2}(notice\||#set:(Description|DisplayName)=)([^}]*)}{2}
 rule4.groupSource.i=3
 rule4.groupTarget.i=-1
-rule4.groupName.i=1
-rule4.groupNote.i=-1
+rule4.groupName.i=-1
+rule4.groupNote.i=1
 rule4.preserveWS.b=true
 rule4.useCodeFinder.b=false
 rule4.sample=Matches notices and Description and DisplayName properties, which are sent to$0a$translation. The first capturing group is used as an identifier.$0a$$0a${{notice|There's a bug in [[0.8.0]] preventing this function from working}}$0a$$0a${{#set:DisplayName=love.audio.pause}}$0a$$0a${{#set:Description=Creates a new [[Source]] from a file, [[SoundData]], or [[Decoder]].}}$0a$$0a$*"[]" and "[[]]" are no longer treated as inline code, since they're not simple tags, but$0a$complex structures that often require addition of arguments separated by "|".
@@ -80,8 +80,8 @@ rule5.ruleType.i=1
 rule5.expr=\*\s*\[{2}((parent|Constructs)::|).*?]]
 rule5.groupSource.i=0
 rule5.groupTarget.i=-1
-rule5.groupName.i=1
-rule5.groupNote.i=-1
+rule5.groupName.i=-1
+rule5.groupNote.i=1
 rule5.preserveWS.b=true
 rule5.useCodeFinder.b=true
 rule5.sample=This captures bracket links that come after a "*".$0a$That structure is found (exclusively?) at the "See Also" section.$0a$"*", "[[" and "]]" are not being considered inline code (and are thus not being$0a$transformed into tags), because the link structure is often a bit complex, demanding$0a$the addition of an extra parameter separated by "|" (but not always). So it must not$0a$be confused with regular tags (such as bold and italics).$0a$In the case below, Tutorial:Audio is a non-essential part of the wiki, and the$0a$translators could choose not to translate it, so the link should remain the same.$0a$The inline code is not transformed into tags also  to make translators more aware of$0a$the situation, and remind them that they should edit the link manually, using the$0a$appropriate syntax:$0a$[[PageRealAndDisplayName]] or [[PageRealName|PageDisplayName]]$0a$$0a$Some of them start with "parent::" or "Constructs::". Unlike in the example of$0a$"Tutorial:Audio", they're not part of the link. Instead, they provide the link AND set$0a$the parent/Constructs property. "[[Constructs::Source]]" would have to be translated$0a$as "[[Constructs::Source (Português)|Fonte]]" (for the Portuguese language). With$0a$that in mind, "parent::" and "Constructs::" will be considered inline code (to separate$0a$it more clearly) and also used as an identifier.$0a$$0a$== See Also ==$0a$* [[parent::love]]$0a$* [[Tutorial:Audio]]$0a$* [[Constructs::Source]]
@@ -93,8 +93,8 @@ rule6.ruleType.i=1
 rule6.expr=(<source lang="lua">)\s*([\s\S]*?)\s*</source>
 rule6.groupSource.i=2
 rule6.groupTarget.i=-1
-rule6.groupName.i=1
-rule6.groupNote.i=-1
+rule6.groupName.i=-1
+rule6.groupNote.i=1
 rule6.preserveWS.b=true
 rule6.useCodeFinder.b=false
 rule6.sample=This captures the whole "source" structure, it should be sent to the translators as a$0a$coherent whole. It is not recommended to have the CAT tool further segment this.$0a$The first capturing group is used as an identifier.$0a$$0a$<source lang="lua">$0a$function love.load()$0a$   hamster = love.graphics.newImage("hamster.png")$0a$   x = 50$0a$   y = 50$0a$end$0a$function love.draw()$0a$   love.graphics.draw(hamster, x, y)$0a$end$0a$</source>
@@ -121,8 +121,8 @@ rule8.ruleType.i=1
 rule8.expr=([;:]+ *)([^;:\n\r]*?)((?= *:+)| *$)
 rule8.groupSource.i=2
 rule8.groupTarget.i=-1
-rule8.groupName.i=1
-rule8.groupNote.i=-1
+rule8.groupName.i=-1
+rule8.groupNote.i=1
 rule8.preserveWS.b=true
 rule8.useCodeFinder.b=false
 rule8.sample=This regex captures text in two different but related (and often combined) structures,$0a$definition list and indent text.$0a$$0a$It necessarily starts with a ";" or one or more ":", possbibly followed by spaces.$0a$The match is also followed by possibly some spaces and a : or a newline; or maybe$0a$the end of line.$0a$$0a$The first capturing group is used as an identifier.$0a$$0a$; 1 : A readable version number, like "0.8.0".$0a$; 2$0a$: A machine-readable version number, like "080".$0a$; type$0a$: If you'd like, you can specify what it is that has been added.$0a$: This should usually be "function", "type" or "variant".$0a$:: Only types that are set to callback, enum, function, module or type will $0a$:: set their ?Since and ?PrettySince parameters.$0a$; text$0a$: Bring out the big guns, and display a totally different text.
@@ -136,8 +136,8 @@ rule9.ruleType.i=1
 rule9.expr=^(\*) *([^\n\r]*)
 rule9.groupSource.i=2
 rule9.groupTarget.i=-1
-rule9.groupName.i=1
-rule9.groupNote.i=-1
+rule9.groupName.i=-1
+rule9.groupNote.i=1
 rule9.preserveWS.b=true
 rule9.useCodeFinder.b=false
 rule9.sample=A simple regex that captures bullet lists. The * becomes an identifier.$0a$$0a$* MP3$0a$* Ogg Vorbis$0a$* WAVE$0a$* and just about every tracker format you can think of - XM, MOD, [http://sourceforge.net/p/modplug-xmms/git/ci/master/tree/libmodplug/README#l39 and over twenty others].
@@ -162,8 +162,8 @@ rule11.ruleType.i=1
 rule11.expr=\{{2}((new|old)in)[^}]*?text=([^|}]*)[^}]*}{2}
 rule11.groupSource.i=3
 rule11.groupTarget.i=-1
-rule11.groupName.i=1
-rule11.groupNote.i=-1
+rule11.groupName.i=-1
+rule11.groupNote.i=1
 rule11.preserveWS.b=true
 rule11.useCodeFinder.b=false
 rule11.sample=This regex captures all oldin and newin templates with the text property defined.$0a$It may seem unnecessarily complex, since the text is the last parameter defined in$0a$probably all cases. But there's a chance somebody will make it different some day,$0a$so this regex is able to account for any number of arguments before and after the$0a$text. See the examples further below.$0a$$0a$The template name is used as an identifier.$0a$$0a${{oldin|[[0.9.0]]|090|type=function|text=It has been renamed to [[Decoder:getBitDepth]]}}$0a$$0a${{newin|[[0.9.0]]|090|text=It has been renamed to [[Decoder:getBitDepth]]|type=function}}$0a$$0a${{newin|[[0.8.0]]|080|type=function}}$0a$$0a$*"[]" and "[[]]" are no longer treated as inline code, since they're not simple tags, but$0a$complex structures that often require addition of arguments separated by "|".
@@ -188,8 +188,8 @@ rule13.ruleType.i=1
 rule13.expr=\{{2}(param)\|[^|]*\|([^|]*)(?=\|[^}]*}{2})
 rule13.groupSource.i=2
 rule13.groupTarget.i=-1
-rule13.groupName.i=1
-rule13.groupNote.i=-1
+rule13.groupName.i=-1
+rule13.groupNote.i=1
 rule13.preserveWS.b=true
 rule13.useCodeFinder.b=false
 rule13.sample=Captures the argument/return's name in a param template. Notice that the first$0a$argument (light userdata (Português), in the example below) is not captured by any$0a$regex.$0a$$0a$Since this is the first useful argument in the template, let's mark it with an identifier.$0a$It's not possible to mark the other arguments, but this should be a good enough$0a$signal.$0a$$0a${{param|light userdata (Português)|pointer|A raw pointer to the Data.|light userdata}}
@@ -248,8 +248,8 @@ rule16.ruleType.i=1
 rule16.expr=(<(span).*?>.*?</span>)
 rule16.groupSource.i=1
 rule16.groupTarget.i=-1
-rule16.groupName.i=2
-rule16.groupNote.i=-1
+rule16.groupName.i=-1
+rule16.groupNote.i=2
 rule16.preserveWS.b=true
 rule16.useCodeFinder.b=true
 rule16.sample=This regex captures the translated title of the page, which is inside an HTML span.$0a$"span" is set as the identifier for clarification. The HTML tags will be treated as inline$0a$code.$0a$$0a$<span style="color: #597E9A; font-size: 18pt">An HTML lovely span, wonderful span</span>
