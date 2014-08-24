@@ -10,10 +10,10 @@ replacementsPath=
 logPath=/home/bozodel/Downloads/okapilog.utf8
 saveLog.b=false
 
-REMEMBER: YOU HAVE TO REPLACE ALL INSTANCES OF "LANGUAGE" WITH THE RIGHT LANGUAGE (done)
+REMEMBER: YOU HAVE TO REPLACE ALL INSTANCES OF "LANGUAGE" WITH THE RIGHT LANGUAGE
 
 If you add a new rule, you must update this number to the new total of rules.
-count.i=16
+count.i=17
 
 Rules ranging from 0 to 8 are meant to strip all XML away. Besides that, rules from 0 to 2 also put the address of the page to be translated a few newlines above the actual page text, and add some more newlines between pages. Rule number 2 also puts a big translated title, that will be shown below the official title, and set the page's RealLink and DisplayName, properties that will be used by inline queries.
 use0=true
@@ -69,11 +69,16 @@ use13=true
 search13=(\{{2}newobjectnotice)(}{2})
 replace13=$1 (Português)$2
 
+Same as the above, but for the New_feature template. I think the template works the same, regardless whether it uses an underline or a space, so I included both, just in case.
+use14=true
+search14=(\{{2}New( |_)feature)(\|)
+replace14=$1 (Português)$3
+
 The following regexes replace very specific occurrences of newin, when there is no text. Here's how it works: if no text is defined, newin generates text based on its arguments, but to translate that semi-automatic feature would take quite some work, and sometimes the addition of new parameters. But it's easy to avoid that by simply defining the text. So we take the text that would be generated in each situation, add it, and it will be sent to translation, along with all oldins and newins that had text already.
 Of course, if the text generating feature has been translated, then its best to disable these regexes, and possibly replace them with something else.
-use14=true
-search14=(\{{2}newin)(\|([^|]+\|){2}type=function)(}{2})
-replace14=$1 (Português)$2|text=This function is not supported in earlier versions$4
 use15=true
-search15=(\{{2}newin)(\|([^|]+\|){2}type=enum)(}{2})
-replace15=$1 (Português)$2|text=This enum is not supported in earlier versions$4
+search15=(\{{2}newin)(\|([^|]+\|){2}type=function)(}{2})
+replace15=$1 (Português)$2|text=This function is not supported in earlier versions$4
+use16=true
+search16=(\{{2}newin)(\|([^|]+\|){2}type=enum)(}{2})
+replace16=$1 (Português)$2|text=This enum is not supported in earlier versions$4
