@@ -27,3 +27,17 @@ SourceType	TipoDeFonte
 file	arquivo
 decoder	decodificador
 data	dado	"data" can be both singular and plural.
+handler	manipulador
+invoke	invocar	(function)
+index	índice	in tables
+table	tabela
+argument	argumento	in functions
+event queue	fila de eventos
+iterator	iterador
+loop	laço	it's the terminology used in the Lua Reference Manual
+for loop	laço for	it's the terminology used in the Lua Reference Manual
+pump	adicionar	It "pumps" events from the OS into LÖVE's events queue. For more info, see: https://love2d.org/forums/viewtopic.php?f=3&t=78641&p=172831
+call	chamar	(function)
+callback	callback	Masculine. It seems that programmers prefer to use this term in the original form. It is sometimes inconsistently translated as "retorno de chamada" and "chamada de retorno". The masculine is around 145% more used than the feminine.
+thread	thread	Feminine. The English term seems to be widely used in programming courses and tutorials in Portuguese. It is used in the feminine 50% more often than in the masculine.
+quit	quit	When referred to as an event in the event queue, it is a constant, and should not be translated.
