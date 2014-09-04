@@ -4,5 +4,6 @@ This repository contains material for the [LoveKnowsNoBorders](https://github.co
 
 | Section | Status |
 | ------- | ------ |
-| love.audio plus functions | translated by BozoDel in 26 April 2014|
-| love.event plus functions | translated by BozoDel in 2 September 2014|
+| love.audio plus functions      | translated by BozoDel in 26 April 2014|
+| love.event plus functions      | translated by BozoDel in 2 September 2014|
+| love.filesystem plus functions | translation started by BozoDel in 4 September 2014 |
