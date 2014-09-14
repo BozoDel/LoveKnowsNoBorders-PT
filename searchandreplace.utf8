@@ -13,7 +13,7 @@ saveLog.b=false
 REMEMBER: YOU HAVE TO REPLACE ALL INSTANCES OF "LANGUAGE" WITH THE RIGHT LANGUAGE
 
 If you add a new rule, you must update this number to the new total of rules.
-count.i=17
+count.i=18
 
 Rules ranging from 0 to 8 are meant to strip all XML away. Besides that, rules from 0 to 2 also put the address of the page to be translated a few newlines above the actual page text, and add some more newlines between pages. Rule number 2 also puts a big translated title, that will be shown below the official title, and set the page's RealLink and DisplayName, properties that will be used by inline queries.
 use0=true
@@ -82,3 +82,6 @@ replace15=$1 (Português)$2|text=This function is not supported in earlier versi
 use16=true
 search16=(\{{2}newin)(\|([^|]+\|){2}type=enum)(}{2})
 replace16=$1 (Português)$2|text=This enum is not supported in earlier versions$4
+use17=true
+search17=(\{{2}newin)(\|([^|]+\|){2}type=variant)(}{2})
+replace17=$1 (Português)$2|text=This variant is not supported in earlier versions$4
