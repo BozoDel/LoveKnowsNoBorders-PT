@@ -87,7 +87,7 @@ search17=(\{{2}newin)(\|([^|]+\|){2}type=variant)(}{2})
 replace17=$1 (Português)$2|text=This variant is not supported in earlier versions$4
 use18=true
 search18=(\{{2}newin)(\|([^|]+\|){2}type=module)(}{2})
-raplace18=$1 (Português)$2|text=This module is not supported in earlier versions$4
+replace18=$1 (Português)$2|text=This module is not supported in earlier versions$4
 use19=true
 search19=(\{{2}oldin)(\|([^|]+\|){2}type=function)(}{2})
 replace19=$1 (Português)$2|text=This function is not supported in that and later versions$4
