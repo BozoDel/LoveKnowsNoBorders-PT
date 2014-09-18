@@ -7,4 +7,5 @@ This repository contains material for the [LoveKnowsNoBorders](https://github.co
 | love.audio plus functions      | translated by BozoDel in 26 April 2014              |
 | love.event plus functions      | translated by BozoDel in 2 September 2014           |
 | love.filesystem plus functions | translated by BozoDel in 14 September 2014          |
-| love.font plus funcions        | translated by bozoDel in 17 September 2014          |
+| love.font plus funcions        | translated by BozoDel in 18 September 2014          |
+| love.graphics plus functions   | translation started by BozoDel in 18 September 2014 |
