@@ -64,10 +64,10 @@ use12=true
 search12=(\{{2}(new|old)in(?! \(Português\)))([^}]*?text=[^|}]*[^}]*}{2})
 replace12=$1 (Português)$3
 
-Replaces newobjectnotice template occurences with the translated version. Assumes there's a translated version.
+Replaces newobjectnotice and Changelog/header template occurences with the translated version. Assumes there's a translated version.
 use13=true
-search13=(\{{2}newobjectnotice)(}{2})
-replace13=$1 (Português)$2
+search13=(\{{2}(newobjectnotice|Changelog/header))(}{2})
+replace13=$1 (Português)$3
 
 Same as the above, but for the New_feature template. I think the template works the same, regardless whether it uses an underline or a space, so I included both, just in case.
 use14=true
