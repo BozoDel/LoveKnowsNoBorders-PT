@@ -1,53 +1,83 @@
-distance attenuation model	modelo de atenuação por distância	sound is attenuated according to the distance between sound source and listener, among other factors
-returns	retorna	"retorna" (verb) and NOT "retornos" (plural noun)
-DistanceModel	ModeloDeDistância	enum name
-Source	Fonte	type name
-source	source	type name
-number	número	Lua type name
-orientation	orientação
-enum	enum	it is more often written as "enum" in Portuguese (as opposed to "enumeração", "enumerador" or "tipo enumerado"). It's used in the masculine form, and the plural is "enums".
-constructor	construtor
-pointer	ponteiro
-raw pointer	ponteiro	A raw pointer is the same as a regular pointer. "Raw" is used to distinguish it from smart pointers, but it's not entirely necessary. Plus, this expression is very rare on the wiki.
-listener	ouvinte
-vector	vetor
-forward vector	vetor dianteiro	It's a 3D vector showing the direction the listener is looking at.
-up vector	vetor superior	It's a 3D vector showing the direction that the top of the listener's head is pointing at.
-File	Arquivo
-Decoder	Decodificador
-SoundData	DadoDeSom	"Data" is used nowadays both as singular and plural. When SoundData is a single object, it's best translated as "DadoDeSom" instead of "DadosDeSom".
-filepath	caminho d(e|o) arquivo	"Caminho" seems more common than "endereço".
-File	Arquivo
-static	static	When used in an example string, or when isolated (shown under SourceType constants), don't translate.
-static	estático	When used in a description or explanation, do translate.
-string	string	s.m. (o uso masculino parece ser um pouco mais comum que o feminino)
-stream	stream	When used in an example string, or when isolated (shown under SourceType constants), don't translate.
-stream	em fluxo	When used in a description or explanation, do translate. "Streaming de áudio" may be preferred among IT people, but searching for "áudio em fluxo" yields twice as many results. Plus, it's more easily understood by Portuguese speakers.
-SourceType	TipoDeFonte
-file	arquivo
-decoder	decodificador
-data	dado	"data" can be both singular and plural.
-handler	manipulador
-invoke	invocar	(function)
-index	índice	in tables
-table	tabela
+AlignMode	ModoDeAlinhar
+append	acrescentar
 argument	argumento	in functions
-event queue	fila de eventos
-iterator	iterador
-loop	laço	it's the terminology used in the Lua Reference Manual
-for loop	laço for	it's the terminology used in the Lua Reference Manual
-pump	adicionar	It "pumps" events from the OS into LÖVE's events queue. For more info, see: https://love2d.org/forums/viewtopic.php?f=3&t=78641&p=172831
-call	chamar	(function)
+batch	lote
 callback	callback	Masculine. It seems that programmers prefer to use this term in the original form. It is sometimes inconsistently translated as "retorno de chamada" and "chamada de retorno". The masculine is around 145% more used than the feminine.
-thread	thread	Feminine. The English term seems to be widely used in programming courses and tutorials in Portuguese. It is used in the feminine 50% more often than in the masculine.
-quit	quit	When referred to as an event in the event queue, it is a constant, and should not be translated.
-FontData	DadoDeFonte
-raster	raster	It's hard to pick a translation among the options (varredura, rastreio, matricial), but the etymology suggests that there's no good direct translation.
-rasterizer	rasterizador	See raster.
-Rasterizer	Rasterizador	See raster.
-glyph	glifo
-GlyphData	DadoDeGlifo
+call	chamar	(function)
+Canvas	Pintura	We can't translate canvas as tela or ecrã, as those words are used to refer to the computer screen. Quadro would be a good translation, but sounds too much like Quad. Pintura it is.
 character	caracter	(Typograhpy) Both caractere and caracter are correct, but the latter is already used in most cases in the wiki. Pl.: caracteres.
 character code	código de caracter	See character.
-ImageData	DadoDeImagem
+constructor	construtor
+data	dado	"data" can be both singular and plural.
+Decoder	Decodificador
+decoder	decodificador
+distance attenuation model	modelo de atenuação por distância	sound is attenuated according to the distance between sound source and listener, among other factors
+DistanceModel	ModeloDeDistância	enum name
+Drawable	Desenhável
+DrawMode	ModoDeDesenho
+encoding	codificação	(character encoding)
+enum	enum	it is more often written as "enum" in Portuguese (as opposed to "enumeração", "enumerador" or "tipo enumerado"). It's used in the masculine form, and the plural is "enums".
+event queue	fila de eventos
+File	Arquivo
+file	arquivo
+filepath	caminho d(e|o) arquivo	"Caminho" seems more common than "endereço".
+FontData	DadoDeFonte
 Font	Fonte
+for loop	laço for	it's the terminology used in the Lua Reference Manual
+forward vector	vetor dianteiro	It's a 3D vector showing the direction the listener is looking at.
+GlyphData	DadoDeGlifo
+glyph	glifo
+handler	manipulador
+ImageData	DadoDeImagem
+Image	Imagem
+index	índice	in tables
+integer	número inteiro
+invoke	invocar	(function)
+iterate	iterar	It's iterar, not iteragir, and must be conjugated accordingly.
+iterator	iterador
+listener	ouvinte
+loop	iterar	When used as a verb, iterar migh be more appropriate. See iterate.
+loop	laço	it's the terminology used in the Lua Reference Manual
+Mesh	Malha
+mode	modo
+number	número	Lua type name
+offset	deslocar
+orientation	orientação
+ParticleSystem	SistemaDePartículas
+pointer	ponteiro
+polyline	cadeia poligonal
+pump	adicionar	It "pumps" events from the OS into LÖVE's events queue. For more info, see: https://love2d.org/forums/viewtopic.php?f=3&t=78641&p=172831
+Quad	Quad
+quad	quad
+quit	quit	When referred to as an event in the event queue, it is a constant, and should not be translated.
+radius	raio
+Rasterizer	Rasterizador	See raster.
+rasterizer	rasterizador	See raster.
+raster	raster	It's hard to pick a translation among the options (varredura, rastreio, matricial), but the etymology suggests that there's no good direct translation.
+raw pointer	ponteiro	A raw pointer is the same as a regular pointer. "Raw" is used to distinguish it from smart pointers, but it's not entirely necessary. Plus, this expression is very rare on the wiki.
+render	renderizar	Translation used by Intel and Adobe.
+returns	retorna	"retorna" (verb) and NOT "retornos" (plural noun)
+rooted	ancorado	LÖVE's coordinate system.
+scale	escala	(noun)
+scale	redimensionar	(verb)
+scaling	redimensionamento	(deverbal noun)
+scissor area	área da tesoura
+segments	segmentos
+shear	inclinar	See skew.
+skew	inclinar	Synonym of shear. It's the term used in GIMP's translation.
+SoundData	DadoDeSom	"Data" is used nowadays both as singular and plural. When SoundData is a single object, it's best translated as "DadoDeSom" instead of "DadosDeSom".
+Source	Fonte	type name
+source	source	type name
+SourceType	TipoDeFonte
+SpriteBatch	LoteDeSprites
+sprite	sprite
+static	estático	When used in a description or explanation, do translate.
+static	static	When used in an example string, or when isolated (shown under SourceType constants), don't translate.
+stream	em fluxo	When used in a description or explanation, do translate. "Streaming de áudio" may be preferred among IT people, but searching for "áudio em fluxo" yields twice as many results. Plus, it's more easily understood by Portuguese speakers.
+stream	stream	When used in an example string, or when isolated (shown under SourceType constants), don't translate.
+string	string	s.m. (o uso masculino parece ser um pouco mais comum que o feminino)
+table	tabela
+thread	thread	Feminine. The English term seems to be widely used in programming courses and tutorials in Portuguese. It is used in the feminine 50% more often than in the masculine.
+translation	translação	(graphics)
+up vector	vetor superior	It's a 3D vector showing the direction that the top of the listener's head is pointing at.
+vector	vetor

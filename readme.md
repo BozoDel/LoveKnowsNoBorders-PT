@@ -8,4 +8,4 @@ This repository contains material for the [LoveKnowsNoBorders](https://github.co
 | love.event plus functions                | translated by BozoDel in 2 September 2014           |
 | love.filesystem plus functions           | translated by BozoDel in 14 September 2014          |
 | love.font plus funcions                  | translated by BozoDel in 18 September 2014          |
-| love.graphics plus *drawing* functions   | translation started by BozoDel in 18 September 2014 |
+| love.graphics plus *drawing* functions   | translated by BozoDel in 26 September 2014          |
