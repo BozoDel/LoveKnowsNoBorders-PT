@@ -13,7 +13,7 @@ saveLog.b=false
 REMEMBER: YOU HAVE TO REPLACE ALL INSTANCES OF "LANGUAGE" WITH THE RIGHT LANGUAGE
 
 If you add a new rule, you must update this number to the new total of rules.
-count.i=20
+count.i=21
 
 Rules ranging from 0 to 8 are meant to strip all XML away. Besides that, rules from 0 to 2 also put the address of the page to be translated a few newlines above the actual page text, and add some more newlines between pages. Rule number 2 also puts a big translated title, that will be shown below the official title, and set the page's RealLink and DisplayName, properties that will be used by inline queries.
 use0=true
@@ -91,3 +91,8 @@ replace18=$1 (Português)$2|text=This module is not supported in earlier version
 use19=true
 search19=(\{{2}oldin)(\|([^|]+\|){2}type=function)(}{2})
 replace19=$1 (Português)$2|text=This function is not supported in that and later versions$4
+
+The rule below just transforms multiple consecutive spaces into a single one (it doesn't happen often, but can get in the way of the actual extraction filter).
+use20=true
+search20=(  +)
+replace20= 
