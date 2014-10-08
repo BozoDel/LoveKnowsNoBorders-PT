@@ -105,8 +105,8 @@ rule2.codeFinderRules.rule0=\[\[
 rule2.codeFinderRules.rule1=]]
 rule7.ruleName=codeBox
 rule7.ruleType.i=1
-rule7.expr=(<source lang="lua">)\s*([\s\S]*?)\s*</source>
-rule7.groupSource.i=2
+rule7.expr=(<source lang="(lua|glsl)">)\s*([\s\S]*?)\s*</source>
+rule7.groupSource.i=3
 rule7.groupTarget.i=-1
 rule7.groupName.i=-1
 rule7.groupNote.i=1
