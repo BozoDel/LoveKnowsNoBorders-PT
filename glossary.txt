@@ -1,12 +1,20 @@
 AlignMode	ModoDeAlinhar
+alpha	alfa
+antialias	antisserrilhamento	Term used in GIMP.
+antialiasing	antisserrilhamento	Term used in GIMP.
 append	acrescentar
 argument	argumento	in functions
+array	array	As used in the Lua manual.
 batch	lote
+buffer	buffer
 callback	callback	Masculine. It seems that programmers prefer to use this term in the original form. It is sometimes inconsistently translated as "retorno de chamada" and "chamada de retorno". The masculine is around 145% more used than the feminine.
 call	chamar	(function)
 Canvas	Pintura	We can't translate canvas as tela or ecrã, as those words are used to refer to the computer screen. Quadro would be a good translation, but sounds too much like Quad. Pintura it is.
 character	caracter	(Typograhpy) Both caractere and caracter are correct, but the latter is already used in most cases in the wiki. Pl.: caracteres.
 character code	código de caracter	See character.
+color component	componente de cor	Ex.: componente de cor vermelha
+compressedData	dadoComprimido
+CompressedData	DadoComprimido
 constructor	construtor
 data	dado	"data" can be both singular and plural.
 Decoder	Decodificador
@@ -14,21 +22,30 @@ decoder	decodificador
 distance attenuation model	modelo de atenuação por distância	sound is attenuated according to the distance between sound source and listener, among other factors
 DistanceModel	ModeloDeDistância	enum name
 Drawable	Desenhável
+drawable	desenhável
 DrawMode	ModoDeDesenho
 encoding	codificação	(character encoding)
 enum	enum	it is more often written as "enum" in Portuguese (as opposed to "enumeração", "enumerador" or "tipo enumerado"). It's used in the masculine form, and the plural is "enums".
 event queue	fila de eventos
 File	Arquivo
 file	arquivo
+FileData	DadoDeArquivo
+filename	nomeDoArquivo
 filepath	caminho d(e|o) arquivo	"Caminho" seems more common than "endereço".
 FontData	DadoDeFonte
 Font	Fonte
 for loop	laço for	it's the terminology used in the Lua Reference Manual
 forward vector	vetor dianteiro	It's a 3D vector showing the direction the listener is looking at.
+framebuffer	framebuffer
+Framebuffer	Framebuffer
+fsaa	fsaa	It is well explained here: http://www.tech-recipes.com/rx/12951/what-is-anti-alias-what-settings-should-i-use-when-gaming/
 GlyphData	DadoDeGlifo
 glyph	glifo
 handler	manipulador
 ImageData	DadoDeImagem
+imageData	dadoDeImagem
+ImageData:encode	DadoDeImagem:encode
+Image Font Format	Formato Imagem de Fonte
 Image	Imagem
 index	índice	in tables
 integer	número inteiro
@@ -38,12 +55,18 @@ iterator	iterador
 listener	ouvinte
 loop	iterar	When used as a verb, iterar migh be more appropriate. See iterate.
 loop	laço	it's the terminology used in the Lua Reference Manual
+MeshDrawMode	ModoDeDesenhoDeMalha
 Mesh	Malha
+mesh	malha
 mode	modo
 number	número	Lua type name
 offset	deslocar
 orientation	orientação
+orthographic projection matrix	matriz de projeção ortográfica	As explained here: http://trevinca.ei.uvigo.es/~vluzon/Tutorial/Proyecciones.htm
 ParticleSystem	SistemaDePartículas
+pixel effect	efeito de pixel
+PixelEffect	EfeitoDePixel	Effect applied on each individual pixel. Here's a good explanation of how it works http://blogs.love2d.org/content/beginners-guide-shaders
+pixel shader	shader de pixel
 pointer	ponteiro
 polyline	cadeia poligonal
 pump	adicionar	It "pumps" events from the OS into LÖVE's events queue. For more info, see: https://love2d.org/forums/viewtopic.php?f=3&t=78641&p=172831
@@ -51,6 +74,7 @@ Quad	Quad
 quad	quad
 quit	quit	When referred to as an event in the event queue, it is a constant, and should not be translated.
 radius	raio
+range	faixa	As in "range of [-1, 1]".
 Rasterizer	Rasterizador	See raster.
 rasterizer	rasterizador	See raster.
 raster	raster	It's hard to pick a translation among the options (varredura, rastreio, matricial), but the etymology suggests that there's no good direct translation.
@@ -63,6 +87,8 @@ scale	redimensionar	(verb)
 scaling	redimensionamento	(deverbal noun)
 scissor area	área da tesoura
 segments	segmentos
+Shader	Shader	Universities seem to use "shader" more often, while software companies use "sombreador". There were too many false positives to assess the number of occurrences in each case. See PixelEffect.
+Shader Variables	Variáveis de Shader
 shear	inclinar	See skew.
 skew	inclinar	Synonym of shear. It's the term used in GIMP's translation.
 SoundData	DadoDeSom	"Data" is used nowadays both as singular and plural. When SoundData is a single object, it's best translated as "DadoDeSom" instead of "DadosDeSom".
@@ -70,14 +96,29 @@ Source	Fonte	type name
 source	source	type name
 SourceType	TipoDeFonte
 SpriteBatch	LoteDeSprites
+spriteBatch	loteDeSprites
+SpriteBatchUsage	UsoDeLoteDeSprites
 sprite	sprite
 static	estático	When used in a description or explanation, do translate.
 static	static	When used in an example string, or when isolated (shown under SourceType constants), don't translate.
+stencil	estêncil
 stream	em fluxo	When used in a description or explanation, do translate. "Streaming de áudio" may be preferred among IT people, but searching for "áudio em fluxo" yields twice as many results. Plus, it's more easily understood by Portuguese speakers.
 stream	stream	When used in an example string, or when isolated (shown under SourceType constants), don't translate.
 string	string	s.m. (o uso masculino parece ser um pouco mais comum que o feminino)
 table	tabela
+texture coordinate	coordenada de textura	Well explained here: http://stackoverflow.com/questions/5532595/how-do-opengl-texture-coordinates-work
+texture format	formato de textura
+TextureFormat	FormatoDeTextura
+Texture	Textura
+texture	textura
 thread	thread	Feminine. The English term seems to be widely used in programming courses and tutorials in Portuguese. It is used in the feminine 50% more often than in the masculine.
+transformation matrix	matriz de transformação	As explained here: http://www.inf.pucrs.br/~pinho/CG/Aulas/OpenGL/TransfHierarquicas/Transf_Hieraquicas.html
 translation	translação	(graphics)
+unit-circle	círculo unitário
 up vector	vetor superior	It's a 3D vector showing the direction that the top of the listener's head is pointing at.
+usagehint	dicadeuso
 vector	vetor
+vertex shader	shader de vértice
+window	janela
+wrap	acondicionar	(graphics)
+WrapMode	ModoDeAcondicionar	Because ModoDeAcondicionamento is too long.
