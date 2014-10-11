@@ -10,3 +10,4 @@ This repository contains material for the [LoveKnowsNoBorders](https://github.co
 | love.font plus funcions                           | translated by BozoDel in 18 September 2014          |
 | love.graphics plus *drawing* functions            | translated by BozoDel in 26 September 2014          |
 | *object creation* functions (under love.graphics) | translated by BozoDel in 9 October 2014             |
+| *graphics state* functions (under love.graphics)  | translation started by BozoDel in 11 October 2014   |
