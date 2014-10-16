@@ -221,14 +221,14 @@ rule14.codeFinderRules.sample=
 rule14.codeFinderRules.useAllRulesWhenTesting.b=false
 rule15.ruleName=paramDesc
 rule15.ruleType.i=1
-rule15.expr=\|([^|}]*)(?=\|[^|}]*}{2})
+rule15.expr=\|([^|}]*?(\[{2}.*?]])?[^|}]*?)(?=\|[^|}]*}{2})
 rule15.groupSource.i=1
 rule15.groupTarget.i=-1
 rule15.groupName.i=-1
 rule15.groupNote.i=-1
 rule15.preserveWS.b=true
 rule15.useCodeFinder.b=false
-rule15.sample=Captures a param's description.$0a$The "|" in the lookahead's "[^|}]" prevents it from capturing any other part of the$0a$template.$0a$Must be kept in the end of the list, in order not to conflict other regexes.$0a$$0a${{param|light userdata (Português)|pointer|A raw pointer to the Data.|light userdata}}$0a$$0a$The negated "}" in capturing group 1 prevents it from capturing a big chunk of the$0a$excerpt below.$0a$$0a${{param|light userdata (Português)|pointer|A raw pointer to the Data.|light userdata}}$0a$== See Also ==$0a$* [[parent::Data (Português)]]$0a$* [[Data:getSize]]$0a$* [[Data:getString]]$0a$[[Category:Functions]]$0a${{#set:Description=Gets a pointer to the Data.}}$0a${{#set:Since=000}}$0a$== Other Languages ==$0a${{i18n|Data:getPointer}}
+rule15.sample=Captures a param's description.$0a$The "|" in the lookahead's "[^|}]" prevents it from capturing any other part of the$0a$template.$0a$Must be kept in the end of the list, in order not to conflict other regexes.$0a$$0a${{param|light userdata (Português)|pointer|A raw pointer to the Data.|light userdata}}$0a$$0a$The negated "}" in capturing group 1 prevents it from capturing a big chunk of the$0a$excerpt below.$0a$$0a${{param|light userdata (Português)|pointer|A raw pointer to the Data.|light userdata}}$0a$== See Also ==$0a$* [[parent::Data (Português)]]$0a$* [[Data:getSize]]$0a$* [[Data:getString]]$0a$[[Category:Functions]]$0a${{#set:Description=Gets a pointer to the Data.}}$0a${{#set:Since=000}}$0a$== Other Languages ==$0a${{i18n|Data:getPointer}}$0a$$0a$The first capturing group used to be ([^|}]*), but that didn't work in the rare occurrence of$0a$a link with a different name set (because it would contain a |), so it's been changed to$0a$([^|}]*?(\[{2}.*?]])?[^|}]*?), with the optional link structure in the middle. Se an$0a$occurrence example below.$0a$$0a${{param|Canvas (Português)|canvas|The Canvas set by [[love.graphics.setCanvas|setCanvas]]. Returns nil if drawing to the real screen.|Canvas}}
 rule15.codeFinderRules.count.i=0
 rule15.codeFinderRules.sample=
 rule15.codeFinderRules.useAllRulesWhenTesting.b=false
