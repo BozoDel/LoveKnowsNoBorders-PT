@@ -33,7 +33,7 @@ rule1.groupNote.i=-1
 rule1.preserveWS.b=true
 rule1.useCodeFinder.b=true
 rule1.sample=MUST BE PLACED BELOW bracketSkips$0a$(because of structures starting with "[[" that must be skipped)$0a$$0a$Matches whole paragraphs. It's not necessary to have the CAT tool further segment$0a$paragraphs.$0a$$0a$They can end with a period. With a question mark? With an exclamation point! Or just a$0a$letter (or anything else) in the end of paragraphs$0a$$0a$[[It can start]] with a [link]$0a$(Or with parentheses)$0a$''Or with italic''$0a$'''Or bold'''$0a$'''''Or both'''''$0a$$0a$Explanation of the regex:$0a$It must be preceded by a ".", a "?" or a "!" plus a space OR be at the start of the line.$0a$The first character has to be a letter, a "[", a "(", or a "'", in order not to$0a$conflict with things that start with "{" or "=", for example.$0a$The following characters are of any kind (except a "{"), but with a lazy quantifier, until it$0a$satisfies the final conditions.$0a$The final condition is end of line OR be preceded by ".", "?" or "!" AND followed by$0a$a space or a "{" (in case a template is stuck straight to the end of the line).$0a$It might seem overkill, but we are dealing with function names that have dots in$0a$them. Done this way, that's not an issue.$0a$The (?<!e\.g\.) part doesn't let it segment after "e.g.", like in this paragraph:$0a$Writing to multiple lines: In Windows, some text editors (e.g. Notepad) only treat CRLF ("\r\n") as a new line.$0a$The (?!.*</code>) parts prevents breaking in inline code blocks, such as:$0a$Vertex and Pixel shader code can be combined into one file or string if you wrap the vertex-specific code in <code>#ifdef VERTEX .. #endif</code> and the pixel-specific code in <code>#ifdef PIXEL .. #endif</code>.$0a$$0a$$0a$*"[]" and "[[]]" are no longer treated as inline code, since they're not simple tags, but$0a$complex structures that often require addition of arguments separated by "|".
-rule1.codeFinderRules.count.i=2
+rule1.codeFinderRules.count.i=3
 rule1.codeFinderRules.sample=Matches whole paragraphs. That will be further segmented by the CAT tool.$0a$$0a$They can end with a period.$0a$With a question mark?$0a$With an exclamation point!$0a$With a colon:$0a$Or just a letter$0a$$0a$[[It can start]] and end with a [link]$0a$(Or with parentheses)$0a$<span style="color: #597E9A; font-size: 18pt">Or with an HTML lovely span, wonderful span</span>$0a$''Or with italic''$0a$'''Or bold'''$0a$'''''Or both'''''$0a$$0a$Like <code>[[love.event.poll]]()</code>, but blocks until there is an event in the queue.
 rule1.codeFinderRules.useAllRulesWhenTesting.b=true
 rule2.ruleName=headings
@@ -234,7 +234,7 @@ rule15.codeFinderRules.sample=
 rule15.codeFinderRules.useAllRulesWhenTesting.b=false
 rule1.codeFinderRules.rule0='{2,5}
 rule1.codeFinderRules.rule1=</?code>
-rule1.codeFinderRules.rule2='{2,5}
+rule1.codeFinderRules.rule2=</?tt>
 rule1.codeFinderRules.rule3=<span[^>]*>
 rule15.codeFinderRules.rule0=\[{2}
 rule15.codeFinderRules.rule1=]{2}
