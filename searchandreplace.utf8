@@ -59,9 +59,9 @@ use11=true
 search11=((]|:) *\[{2}(parent|Constructs)::|\|{2})([^\]|]+)(?=]{2}|\|{2}[^}]*]{2})
 replace11=$1$4 (Português)
 
-If the newin and oldin templates have been translated, even if just the first line, then we need to replace the untranslated with the translated ones. Just to be clear, this replaces the templates, not their additional text. I don't think the negative lookahead part is necessary anymore, but it's not doing any harm, so I'll leave it there.
+If the newin, oldin and deprecatedin templates have been translated, even if just the first line, then we need to replace the untranslated with the translated ones. Just to be clear, this replaces the templates, not their additional text. I don't think the negative lookahead part is necessary anymore, but it's not doing any harm, so I'll leave it there.
 use12=true
-search12=(\{{2}(new|old)in(?! \(Português\)))([^}]*?text=[^|}]*[^}]*}{2})
+search12=(\{{2}(new|old|deprecated)in(?! \(Português\)))([^}]*?text=[^|}]*[^}]*}{2})
 replace12=$1 (Português)$3
 
 Replaces newobjectnotice and Changelog/header template occurences with the translated version. Assumes there's a translated version.
