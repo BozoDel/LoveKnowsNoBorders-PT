@@ -6,19 +6,28 @@ append	acrescentar
 argument	argumento	in functions
 array	array	As used in the Lua manual.
 batch	lote
+blend mode	modo de mistura
+BlendMode	ModoDeMistura
+box	área	(as in scissor box)
 buffer	buffer
 callback	callback	Masculine. It seems that programmers prefer to use this term in the original form. It is sometimes inconsistently translated as "retorno de chamada" and "chamada de retorno". The masculine is around 145% more used than the feminine.
 call	chamar	(function)
+Canvas:clear	Pintura:clear
 Canvas	Pintura	We can't translate canvas as tela or ecrã, as those words are used to refer to the computer screen. Quadro would be a good translation, but sounds too much like Quad. Pintura it is.
+Canvas:renderTo	Pintura:renderTo
 character	caracter	(Typograhpy) Both caractere and caracter are correct, but the latter is already used in most cases in the wiki. Pl.: caracteres.
 character code	código de caracter	See character.
 color component	componente de cor	Ex.: componente de cor vermelha
+color mask	máscara de cor
+ColorMode	ModoDeCor
 compressedData	dadoComprimido
 CompressedData	DadoComprimido
 constructor	construtor
 data	dado	"data" can be both singular and plural.
+debug	depurar	Term used in the Lua manual.
 Decoder	Decodificador
 decoder	decodificador
+deprecated	ultrapassado	Used in the Lua manual.
 distance attenuation model	modelo de atenuação por distância	sound is attenuated according to the distance between sound source and listener, among other factors
 DistanceModel	ModeloDeDistância	enum name
 Drawable	Desenhável
@@ -27,21 +36,29 @@ DrawMode	ModoDeDesenho
 encoding	codificação	(character encoding)
 enum	enum	it is more often written as "enum" in Portuguese (as opposed to "enumeração", "enumerador" or "tipo enumerado"). It's used in the masculine form, and the plural is "enums".
 event queue	fila de eventos
+feature	recurso
+feture	recurso
 File	Arquivo
 file	arquivo
 FileData	DadoDeArquivo
 filename	nomeDoArquivo
 filepath	caminho d(e|o) arquivo	"Caminho" seems more common than "endereço".
+FilterMode	ModoDeFiltragem
 FontData	DadoDeFonte
 Font	Fonte
 for loop	laço for	it's the terminology used in the Lua Reference Manual
 forward vector	vetor dianteiro	It's a 3D vector showing the direction the listener is looking at.
 framebuffer	framebuffer
 Framebuffer	Framebuffer
+Framebuffer:renderTo	Framebuffer:renderTo
+frame	frame	So "frames per second" is "frames por segundo".
 fsaa	fsaa	It is well explained here: http://www.tech-recipes.com/rx/12951/what-is-anti-alias-what-settings-should-i-use-when-gaming/
 GlyphData	DadoDeGlifo
 glyph	glifo
+GraphicsFeature	RecursoGráfico
+GraphicsLimit	LimiteGráfico
 handler	manipulador
+HSL color	cor HSL
 ImageData	DadoDeImagem
 imageData	dadoDeImagem
 ImageData:encode	DadoDeImagem:encode
@@ -52,6 +69,8 @@ integer	número inteiro
 invoke	invocar	(function)
 iterate	iterar	It's iterar, not iteragir, and must be conjugated accordingly.
 iterator	iterador
+LineJoin	JunçãoDeLinha
+LineStyle	EstiloDeLinha
 listener	ouvinte
 loop	iterar	When used as a verb, iterar migh be more appropriate. See iterate.
 loop	laço	it's the terminology used in the Lua Reference Manual
@@ -68,6 +87,7 @@ pixel effect	efeito de pixel
 PixelEffect	EfeitoDePixel	Effect applied on each individual pixel. Here's a good explanation of how it works http://blogs.love2d.org/content/beginners-guide-shaders
 pixel shader	shader de pixel
 pointer	ponteiro
+PointStyle	EstiloDePonto
 polyline	cadeia poligonal
 pump	adicionar	It "pumps" events from the OS into LÖVE's events queue. For more info, see: https://love2d.org/forums/viewtopic.php?f=3&t=78641&p=172831
 Quad	Quad
@@ -80,17 +100,28 @@ rasterizer	rasterizador	See raster.
 raster	raster	It's hard to pick a translation among the options (varredura, rastreio, matricial), but the etymology suggests that there's no good direct translation.
 raw pointer	ponteiro	A raw pointer is the same as a regular pointer. "Raw" is used to distinguish it from smart pointers, but it's not entirely necessary. Plus, this expression is very rare on the wiki.
 render	renderizar	Translation used by Intel and Adobe.
+reset	desconfigurar
+reset	reconfigurar
+reset	reiniciar
 returns	retorna	"retorna" (verb) and NOT "retornos" (plural noun)
 rooted	ancorado	LÖVE's coordinate system.
+rough	grosseiro
+rough	rough	"rough", as a constant, has to be maintained. In explanations, the translation may come in parenthesis.
 scale	escala	(noun)
 scale	redimensionar	(verb)
 scaling	redimensionamento	(deverbal noun)
-scissor area	área da tesoura
+scissor area	área de recorte
+scissor area	área de recorte
+scissor box	área de recorte
+scissor	recorte
 segments	segmentos
 Shader	Shader	Universities seem to use "shader" more often, while software companies use "sombreador". There were too many false positives to assess the number of occurrences in each case. See PixelEffect.
 Shader Variables	Variáveis de Shader
 shear	inclinar	See skew.
 skew	inclinar	Synonym of shear. It's the term used in GIMP's translation.
+smooth	smooth	"smooth", as a constant, has to be maintained. In explanations, the translation may come in parenthesis.
+smooth	suave
+snippet	snippet
 SoundData	DadoDeSom	"Data" is used nowadays both as singular and plural. When SoundData is a single object, it's best translated as "DadoDeSom" instead of "DadosDeSom".
 Source	Fonte	type name
 source	source	type name
@@ -109,6 +140,7 @@ table	tabela
 texture coordinate	coordenada de textura	Well explained here: http://stackoverflow.com/questions/5532595/how-do-opengl-texture-coordinates-work
 texture format	formato de textura
 TextureFormat	FormatoDeTextura
+TextureMode	FormatoDeTextura	The TextureMode page redirects to TextureFormat.
 Texture	Textura
 texture	textura
 thread	thread	Feminine. The English term seems to be widely used in programming courses and tutorials in Portuguese. It is used in the feminine 50% more often than in the masculine.
@@ -120,5 +152,6 @@ usagehint	dicadeuso
 vector	vetor
 vertex shader	shader de vértice
 window	janela
+wireframe	estrutura de arame
 wrap	acondicionar	(graphics)
 WrapMode	ModoDeAcondicionar	Because ModoDeAcondicionamento is too long.
