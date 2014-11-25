@@ -11,4 +11,4 @@ This repository contains material for the [LoveKnowsNoBorders](https://github.co
 | love.graphics plus *drawing* functions              | translated by BozoDel in 26 September 2014          |
 | *object creation* functions (under love.graphics)   | translated by BozoDel in 9 October 2014             |
 | *graphics state* functions (under love.graphics)    | translated by BozoDel in 2 November 2014            |
-| *coordinate system* functions (under love.graphics) | translation started by BozoDel in 2 November 2014   |
+| *coordinate system* functions (under love.graphics) | translated by BozoDel in 25 November 2014           |

@@ -23,6 +23,8 @@ ColorMode	ModoDeCor
 compressedData	dadoComprimido
 CompressedData	DadoComprimido
 constructor	construtor
+coordinate system	sistema de coordenadas
+coordinate transformation	transformação de coordenadas
 data	dado	"data" can be both singular and plural.
 debug	depurar	Term used in the Lua manual.
 Decoder	Decodificador
@@ -69,6 +71,8 @@ integer	número inteiro
 invoke	invocar	(function)
 iterate	iterar	It's iterar, not iteragir, and must be conjugated accordingly.
 iterator	iterador
+kx	ix	"k" is probaly used to indicate shear because "s" is already used to indicate scaling.
+ky	iy	"k" is probaly used to indicate shear because "s" is already used to indicate scaling.
 LineJoin	JunçãoDeLinha
 LineStyle	EstiloDeLinha
 listener	ouvinte
@@ -89,7 +93,9 @@ pixel shader	shader de pixel
 pointer	ponteiro
 PointStyle	EstiloDePonto
 polyline	cadeia poligonal
+pop	desempilhar	Used in the Lua manual.
 pump	adicionar	It "pumps" events from the OS into LÖVE's events queue. For more info, see: https://love2d.org/forums/viewtopic.php?f=3&t=78641&p=172831
+push	empilhar	Used in the Lua manual.
 Quad	Quad
 quad	quad
 quit	quit	When referred to as an event in the event queue, it is a constant, and should not be translated.
@@ -105,6 +111,7 @@ reset	reconfigurar
 reset	reiniciar
 returns	retorna	"retorna" (verb) and NOT "retornos" (plural noun)
 rooted	ancorado	LÖVE's coordinate system.
+rotate	rotacionar	Used in GIMP.
 rough	grosseiro
 rough	rough	"rough", as a constant, has to be maintained. In explanations, the translation may come in parenthesis.
 scale	escala	(noun)
@@ -130,12 +137,15 @@ SpriteBatch	LoteDeSprites
 spriteBatch	loteDeSprites
 SpriteBatchUsage	UsoDeLoteDeSprites
 sprite	sprite
+stack	pilha	Used in the Lua manual.
 static	estático	When used in a description or explanation, do translate.
 static	static	When used in an example string, or when isolated (shown under SourceType constants), don't translate.
 stencil	estêncil
 stream	em fluxo	When used in a description or explanation, do translate. "Streaming de áudio" may be preferred among IT people, but searching for "áudio em fluxo" yields twice as many results. Plus, it's more easily understood by Portuguese speakers.
 stream	stream	When used in an example string, or when isolated (shown under SourceType constants), don't translate.
 string	string	s.m. (o uso masculino parece ser um pouco mais comum que o feminino)
+sx	ex	scale -> escala
+sy	ey	scale -> escala
 table	tabela
 texture coordinate	coordenada de textura	Well explained here: http://stackoverflow.com/questions/5532595/how-do-opengl-texture-coordinates-work
 texture format	formato de textura
